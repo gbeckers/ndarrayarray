@@ -26,11 +26,12 @@ Example
 
 .. code:: python
 
-    >>> import numpy as np, ndarrayarray as ndaa
+    >>> import numpy as np
+    >>> ndarrayarray as ndaa
     >>> a = ndaa.create_ndarrayarray('testndaa.darr', dtype='float64', overwrite=True)
     >>> a.append(np.ones((3,1,3)))
     >>> a.append(2 * np.ones((2,4)))
-    >>> a.append(3 * np.ones((5)))
+    >>> a.append(3 * np.ones(5))
     >>> a[0]
     array([[[1., 1., 1.]],
            [[1., 1., 1.]],
