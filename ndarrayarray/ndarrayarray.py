@@ -129,7 +129,7 @@ class NDArrayArray:
         return len(self._indicesandshapes)
 
     def __repr__(self):
-        return f'VarDimArray ({self.narrays} variable dimension subarrays ' \
+        return f'NDArrayArray ({self.narrays} variable dimension subarrays ' \
                f'({self.accessmode})'
 
     __str__ = __repr__
