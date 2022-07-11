@@ -10,6 +10,6 @@ setup(
     license='',
     author='Gabriel Beckers',
     author_email='gabriel@gbeckers.nl',
-    description='',
+    description='A memory-mapped array of arbitrarily shaped numpy ndarrays.',
     install_requires=['darr'],
 )
